@@ -4,11 +4,18 @@ body {
 
 .row {
   width: 500px;
+  height: 1000px;
   background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .row div {
   width: 100px;
+  height: 100px;
   background-color: steelblue;
   color: white;
   margin: 8px;
